@@ -1,0 +1,73 @@
+/* General page styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Use a fancy Google font */
+    margin: 0;
+    padding: 0;
+    background-color: #faf3f3; /* Soft background */
+  }
+  
+  /* Container for food items */
+  .fooditem {
+    max-width: 350px;
+    margin: 50px 0 20px 50px; /* Align to the left of the page */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .fooditem:hover {
+    transform: translateX(10px); /* Slight shift when hovered */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling */
+  .foodimg {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Title styling with fancy font */
+  .foodtitle {
+    font-family: 'Playfair Display', serif; /* Fancy serif font */
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50; /* Darker color for title */
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* Button styling - fancy style */
+  .viewrecipebtn {
+    background-color: #8e44ad; /* Purple tone for a fancy button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px; /* Rounded button */
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .viewrecipebtn:hover {
+    background-color: #732d91; /* Darker purple on hover */
+    transform: scale(1.05); /* Slight enlarge effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Ensures content stays left-aligned */
+  .foodlist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
